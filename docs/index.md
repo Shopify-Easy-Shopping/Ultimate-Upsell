@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-description: "Ultimate Upsell & Cross Sell — Complete documentation"
+title: Ultimate Upsell & Cross Sell
+description: "Complete documentation"
 ---
 
 # Ultimate Upsell & Cross Sell
