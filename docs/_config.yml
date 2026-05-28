@@ -1,0 +1,27 @@
+title: Ultimate Upsell & Cross Sell — Documentation
+description: Complete guide for the Ultimate Upsell & Cross Sell Shopify app
+theme: just-the-docs
+
+url: ""
+baseurl: ""
+
+# Navigation
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+
+# Footer
+footer_content: "Ultimate Upsell &amp; Cross Sell &copy; 2026"
+
+# Collections
+collections:
+  docs:
+    permalink: "/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_fold: false
