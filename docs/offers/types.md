@@ -1,20 +1,13 @@
 ---
 layout: default
 title: Offer Types
-parent: Offers
-nav_order: 2
 description: "BUNDLE, POPUP, and CART UPSELL offer types explained"
 ---
 
 # Offer Types
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -50,7 +43,7 @@ Displays a curated list of recommended products directly on the product page, st
 **Where it appears:** Product pages (via the **Product Offer** theme block)
 
 **How it works:**
-A modal popup is triggered when the customer visits a product page (or optionally on add-to-cart). The popup presents recommended products with the option to add them to the cart.
+A modal popup is triggered when the customer visits a product page. The popup presents recommended products with the option to add them to the cart.
 
 **Best for:**
 - Highlighting a single high-value upsell
@@ -116,3 +109,7 @@ Each offer type requires a specific theme block to be installed:
 See [Theme Blocks](../theme-blocks) for installation instructions.
 
 > **Important:** If the required theme block is not installed, offers of that type will never appear on your storefront, even if the offer is set to Active.
+
+---
+
+[← Back to Offers](index) &nbsp;|&nbsp; [← Back to Home](../index)

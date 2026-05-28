@@ -1,19 +1,13 @@
 ---
 layout: default
 title: Theme Blocks
-nav_order: 6
 description: "Adding the Product Offer and Cart Upsell blocks to your Shopify theme"
 ---
 
 # Theme Blocks
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -120,3 +114,7 @@ Check the following:
 - For **Manual** recommendations, ensure products are selected and available in your store.
 - For **AI** recommendations, ensure there are products in your store with matching tags or collections.
 - Check that the recommended products are published and available for sale.
+
+---
+
+[← Back to Home](index)

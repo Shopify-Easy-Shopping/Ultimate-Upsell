@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 1
 description: "Ultimate Upsell & Cross Sell — Complete documentation"
-permalink: /
 ---
 
 # Ultimate Upsell & Cross Sell
@@ -26,6 +24,7 @@ Ultimate Upsell & Cross Sell lets you create targeted product offers that appear
 | [Analytics](analytics) | Track impressions, clicks, conversions, and revenue |
 | [Settings](settings) | Global controls and widget appearance |
 | [Billing Plans](billing) | Free, Starter, Grow, and Ultimate plan details |
+| [FAQ & Important Notes](faq) | Common questions and critical notes |
 
 ---
 

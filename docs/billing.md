@@ -1,19 +1,13 @@
 ---
 layout: default
 title: Billing Plans
-nav_order: 8
 description: "Plans, revenue limits, upgrading, and downgrading"
 ---
 
 # Billing Plans
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -136,16 +130,6 @@ The Free plan's $100/cycle limit will apply from the next cycle onward.
 
 ---
 
-## Important Notes
-
-> **Revenue counting:** Only conversions tracked by the app (products added to cart via an offer widget and subsequently purchased) count toward your revenue limit. Regular sales not involving the upsell widget are not counted.
-
-> **No refunds for mid-cycle upgrades:** Shopify handles billing through their standard app subscription system. Refer to Shopify's billing policies for refund questions.
-
-> **Test mode (development only):** In development environments, billing is in test mode — no real charges are made and test billing approvals are used.
-
----
-
 ## Plan Comparison Table
 
 | Feature | Free | Starter | Grow | Ultimate |
@@ -156,3 +140,15 @@ The Free plan's $100/cycle limit will apply from the next cycle onward.
 | AI recommendations | ✓ | ✓ | ✓ | ✓ |
 | Analytics | Full | Full | Full | Full |
 | Support | Standard | Priority | Priority | Dedicated |
+
+---
+
+## Important Notes
+
+> **Revenue counting:** Only conversions tracked by the app (products added to cart via an offer widget and subsequently purchased) count toward your revenue limit. Regular sales not involving the upsell widget are not counted.
+
+> **No refunds for mid-cycle upgrades:** Shopify handles billing through their standard app subscription system. Refer to Shopify's billing policies for refund questions.
+
+---
+
+[← Back to Home](index)

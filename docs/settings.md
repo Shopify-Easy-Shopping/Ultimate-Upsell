@@ -1,25 +1,19 @@
 ---
 layout: default
 title: Settings
-nav_order: 7
 description: "Global app settings and controls"
 ---
 
 # Settings
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
 ## Overview
 
-The Settings page (`/app/settings`) contains global controls that apply across all offers in your store.
+The Settings page contains global controls that apply across all offers in your store.
 
 ---
 
@@ -55,3 +49,7 @@ Widget appearance (button colors, layout, max width) is controlled per theme blo
 ## Per-Offer Settings
 
 Settings specific to individual offers (title, description, discount, trigger conditions, recommendation method) are managed on each offer's edit page. See [Creating Offers](offers/create) for details.
+
+---
+
+[← Back to Home](index)

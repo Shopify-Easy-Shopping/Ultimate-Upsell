@@ -1,19 +1,13 @@
 ---
 layout: default
 title: FAQ & Important Notes
-nav_order: 9
 description: "Frequently asked questions and important notes about the app"
 ---
 
 # FAQ & Important Notes
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -66,7 +60,7 @@ Yes. You can have as many Active offers as you like simultaneously. The app will
 
 ### What happens when multiple offers match the same page?
 
-If multiple Active offers match a page (same trigger product, same type), the app selects the most recently created matching offer. To avoid confusion, it is recommended to design offers so they target distinct products or use different types per product.
+If multiple Active offers match a page (same trigger product, same type), the app selects the most recently created matching offer. To avoid confusion, design offers so they target distinct products or use different types per product.
 
 ---
 
@@ -98,15 +92,6 @@ The app tracks conversions from both the **frontend widget** (when a customer cl
 
 ---
 
-### Do offers work with headless or custom storefronts?
-
-The theme blocks are designed for standard Shopify Online Store 2.0 themes. For headless storefronts, you would need to call the app's proxy API endpoints directly:
-
-- `GET /apps/upsell/offers` — Fetch active offers for a product/cart
-- `POST /apps/upsell/track` — Track impressions, clicks, and conversions
-
----
-
 ## Important Notes
 
 ### Revenue Limits are Enforced Automatically
@@ -134,7 +119,7 @@ If you edit a discount value on an Active offer, the change applies immediately 
 
 ### Deleting an Offer is Permanent
 
-Deleting an offer from the Offers list is irreversible. All associated analytics events are also deleted (cascade delete). Consider **Pausing** an offer instead of deleting it if you may want to reuse it later.
+Deleting an offer from the Offers list is irreversible. All associated analytics events are also deleted. Consider **Pausing** an offer instead of deleting it if you may want to reuse it later.
 
 ### Billing is Handled by Shopify
 
@@ -155,3 +140,7 @@ All payment processing, billing disputes, and subscription management (beyond th
 | **Trigger Product** | The product page a customer must visit to see a "Specific Products" offer |
 | **Recommended Product** | A product suggested to the customer by the offer widget |
 | **Theme Block** | A Shopify Theme Editor component that renders the offer widget on your storefront |
+
+---
+
+[← Back to Home](index)

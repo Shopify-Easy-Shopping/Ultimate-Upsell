@@ -1,19 +1,13 @@
 ---
 layout: default
 title: Getting Started
-nav_order: 2
 description: "Install the app and complete the onboarding checklist"
 ---
 
 # Getting Started
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -50,6 +44,7 @@ Progress is displayed as a completion percentage.
 The Dashboard (`/app`) is your home screen and shows:
 
 ### Stats Grid
+
 Four key metrics for your store (all-time):
 - **Total Revenue** — Revenue generated from upsell conversions
 - **Conversions** — Number of upsell products purchased
@@ -57,9 +52,11 @@ Four key metrics for your store (all-time):
 - **Impressions** — Total times offers have been shown
 
 ### Top Performing Offers
+
 A table of your 5 highest-revenue offers showing name, type, status, impressions, clicks, conversions, and revenue.
 
 ### Plan Usage
+
 If you are on a paid plan, the dashboard shows:
 - Your current plan name
 - Revenue generated this billing cycle vs. the plan limit
@@ -69,6 +66,7 @@ If you are on a paid plan, the dashboard shows:
 > **What happens when the limit is reached?** Offers are automatically hidden from your storefront. They resume showing when your billing cycle resets (every 30 days) or when you upgrade your plan.
 
 ### Theme Block Status
+
 The dashboard detects whether the app's theme blocks are installed in your active theme. If blocks are missing, a banner appears with a direct link to the Theme Editor for the relevant template (product or cart page).
 
 ---
@@ -78,3 +76,7 @@ The dashboard detects whether the app's theme blocks are installed in your activ
 - [Create your first offer](offers/create)
 - [Add theme blocks to your storefront](theme-blocks)
 - [Understand billing plans and limits](billing)
+
+---
+
+[← Back to Home](index)

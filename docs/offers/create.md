@@ -1,20 +1,13 @@
 ---
 layout: default
 title: Creating Offers
-parent: Offers
-nav_order: 1
 description: "Step-by-step guide to creating a new upsell or cross-sell offer"
 ---
 
 # Creating Offers
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -38,11 +31,13 @@ Navigate to **Offers → New Offer** from the sidebar.
 ## Step 1: Basic Information
 
 ### Offer Name *(required)*
+
 A internal label for identifying your offer in the admin. Customers do not see this.
 
 **Example:** `Summer Bundle — Sunglasses + Sunscreen`
 
 ### Offer Type *(required)*
+
 Choose how the offer will be displayed to customers.
 
 | Type | Description |
@@ -58,6 +53,7 @@ See [Offer Types](types) for a detailed comparison.
 ## Step 2: When to Show This Offer
 
 ### Show Offer For
+
 Controls which product pages trigger this offer.
 
 | Option | Behavior |
@@ -66,6 +62,7 @@ Controls which product pages trigger this offer.
 | **Specific Products** | Offer appears only when a customer views one of the selected products |
 
 ### Trigger Products *(when "Specific Products" is selected)*
+
 Click **Select products** to open the Shopify product picker. You can select one or multiple products.
 
 Selected products are displayed as badges. Click **Change** to update the selection.
@@ -85,9 +82,11 @@ Selected products are displayed as badges. Click **Change** to update the select
 | **AI — Bestsellers** | The app recommends your store's best-selling products |
 
 ### Product Limit *(AI methods only)*
+
 Set the maximum number of products to display. Range: **1–20** (default: 8).
 
 ### Recommended Products *(Manual method)*
+
 Click **Select products** to open the product picker. You can select individual variants if a product has multiple options.
 
 - Products are displayed as badges showing the product title (and variant name if applicable).
@@ -152,3 +151,7 @@ From **Offers → All Offers**, you can:
 - [Offer Types explained in detail](types)
 - [Configure a discount](discounts)
 - [Add theme blocks so offers display in your store](../theme-blocks)
+
+---
+
+[← Back to Offers](index) &nbsp;|&nbsp; [← Back to Home](../index)

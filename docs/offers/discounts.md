@@ -1,20 +1,13 @@
 ---
 layout: default
 title: Discounts
-parent: Offers
-nav_order: 3
 description: "Configuring percentage and fixed-amount discounts on upsell offers"
 ---
 
 # Discounts
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>Table of contents</summary>
-  {: .text-delta }
-1. TOC
+* TOC
 {:toc}
-</details>
 
 ---
 
@@ -98,3 +91,7 @@ Discounts are calculated and displayed in the offer widget on the storefront. Wh
 - **Combine with Popup offers** for urgency: the popup + a time-sensitive discount creates a strong conversion signal.
 - **Don't over-discount Cart Upsell offers** — customers are already committed; a small nudge (5–10%) is often enough.
 - Keep discount values **visible in the offer title or description** (e.g., "Add this for 10% off today only").
+
+---
+
+[← Back to Offers](index) &nbsp;|&nbsp; [← Back to Home](../index)
