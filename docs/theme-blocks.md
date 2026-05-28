@@ -46,6 +46,8 @@ The Product Offer block displays Bundle and Popup offers on your product pages.
 
 > **Tip:** The Dashboard detects whether this block is installed. If missing, a banner will appear with a direct link to the Theme Editor.
 
+![Add Upsell Block](./images/add-theme-block.png)
+
 ---
 
 ## Adding the Cart Upsell Block

@@ -38,6 +38,8 @@ The top grid shows cumulative totals across the entire lifetime of your app:
 | **Total Impressions** | Total times any offer was displayed, plus the overall click-through rate (Clicks ÷ Impressions) |
 | **Total Clicks** | Total times a customer clicked on a recommended product |
 
+![All-Time Performance](./images/analytic-all-time.png)
+
 ---
 
 ## Recent Period Performance
@@ -48,6 +50,8 @@ This is useful for:
 - Monitoring month-over-month trends
 - Evaluating the impact of a new offer or discount
 - Spotting sudden drops in performance
+
+![Period Performance](./images/analytic-30-days.png)
 
 ---
 
@@ -69,6 +73,8 @@ Each stage shows its percentage relative to impressions. Use this to identify wh
 - **Low click-through rate** → Your offer title, product selection, or placement needs improvement
 - **Low conversion rate** → Your pricing, discount, or product relevance needs improvement
 
+![Conversion Funnel](./images/analytic-conversion-funnel.png)
+
 ---
 
 ## Offer Performance Table
@@ -86,6 +92,8 @@ The table at the bottom ranks all your offers by revenue (highest first) and sho
 | **Conversions** | Times a product from this offer was purchased |
 | **Conv. Rate %** | Conversion rate (Conversions ÷ Impressions) |
 | **Revenue** | Total revenue attributed to this offer |
+
+![Offer Performance](./images/analytic-offer-performance.png)
 
 ---
 

@@ -38,6 +38,8 @@ When this toggle is **enabled**, every upsell and cross-sell offer is hidden fro
 
 When this setting is active, the **Dashboard** shows a warning banner reminding you that all offers are globally disabled, with a direct link back to Settings.
 
+![Warning All Offers disabled](./images/warning-all-offer-disabled.png)
+
 ### Saving Settings
 
 Settings use the **Save Bar** at the top of the page. Changes are not applied until you click **Save**.

@@ -34,6 +34,8 @@ Draft → Active → Paused → Active
 | **Active** | Yes | Offer is live and will display to customers who meet the trigger conditions. |
 | **Paused** | No | Temporarily disabled. Can be re-activated at any time without losing settings. |
 
+![Upsell Offers](../images/upsell-offers.png)
+
 ---
 
 [← Back to Home](../index)

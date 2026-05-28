@@ -55,12 +55,17 @@ The Dashboard shows warnings based on your current usage:
 | 80–99% of limit | **Info banner** — "Approaching your plan limit" |
 | 100%+ of limit | **Critical banner** — "Revenue limit reached" with upgrade prompt |
 
+![Aproaching Revenue Limit](./images/revenue-limit-warning.png)
+![Revenue Limit Reached](./images/revenue-limit-reached.png)
+
 ### Billing Cycle Reset
 
 Billing cycles last **30 days** from the date your cycle started (shown on the Billing page). At the end of 30 days:
 - The cycle revenue counter resets to $0
 - Offers automatically resume (if they were paused due to limit)
 - A new 30-day cycle begins
+
+![Current Plan and Usage](./images/current-plan-usage.png)
 
 ---
 

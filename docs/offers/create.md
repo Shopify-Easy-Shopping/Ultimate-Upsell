@@ -73,6 +73,8 @@ Selected products are displayed as badges. Click **Change** to update the select
 
 > **Note:** The trigger product is the product the customer is currently viewing — not the product being recommended.
 
+![Offer - Trigger Products](../images/offer-trigger-products.png)
+
 ---
 
 ## Step 3: Recommended Products
@@ -98,6 +100,8 @@ Click **Select products** to open the product picker. You can select individual 
 
 > **Variant Selection:** When selecting recommended products, you can pick specific variants (e.g., "Blue – Large"). The offer widget will add that exact variant to the cart when the customer clicks the CTA button.
 
+![Offer - Recommended Products](../images/offer-recommended-products.png)
+
 ---
 
 ## Step 4: Discount Offer *(Optional)*
@@ -105,6 +109,8 @@ Click **Select products** to open the product picker. You can select individual 
 Toggle **"Offer a special discount with this upsell"** to enable a discount.
 
 See [Discounts](discounts) for full details on discount configuration.
+
+![Offer - Discount](../images/offer-discount.png)
 
 ---
 

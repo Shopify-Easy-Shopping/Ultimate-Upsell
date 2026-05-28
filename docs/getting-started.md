@@ -41,6 +41,8 @@ The Dashboard displays a 5-step onboarding guide. Complete all steps to start ge
 
 Progress is displayed as a completion percentage.
 
+![Onboarding Checklist](./images/onboarding-checklist.png)
+
 ---
 
 ## Dashboard Overview
@@ -55,9 +57,13 @@ Four key metrics for your store (all-time):
 - **Active Offers** — Count of currently active offers
 - **Impressions** — Total times offers have been shown
 
+![Stats Overview](./images/stats-overview.png)
+
 ### Top Performing Offers
 
 A table of your 5 highest-revenue offers showing name, type, status, impressions, clicks, conversions, and revenue.
+
+![Top Performing Offers](./images/top-performing-offers.png)
 
 ### Plan Usage
 
@@ -69,9 +75,14 @@ If you are on a paid plan, the dashboard shows:
 
 > **What happens when the limit is reached?** Offers are automatically hidden from your storefront. They resume showing when your billing cycle resets (every 30 days) or when you upgrade your plan.
 
+![Aproaching Revenue Limit](./images/revenue-limit-warning.png)
+![Revenue Limit Reached](./images/revenue-limit-reached.png)
+
 ### Theme Block Status
 
 The dashboard detects whether the app's theme blocks are installed in your active theme. If blocks are missing, a banner appears with a direct link to the Theme Editor for the relevant template (product or cart page).
+
+![Theme Block Status](./images/theme-block-status.png)
 
 ---
 
