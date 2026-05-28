@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hides the 'View on GitHub' or project buttons in Cayman and similar themes */
+header .btn {
+  display: none !important;
+}
