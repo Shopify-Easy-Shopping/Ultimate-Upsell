@@ -4,6 +4,10 @@ title: Settings
 description: "Global app settings and controls"
 ---
 
+[← Back to Home](index)
+
+---
+
 # Settings
 
 * TOC

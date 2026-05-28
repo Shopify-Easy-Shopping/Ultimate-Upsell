@@ -4,6 +4,10 @@ title: Offers
 description: "Creating and managing upsell and cross-sell offers"
 ---
 
+[← Back to Home](../index)
+
+---
+
 # Offers
 
 Offers are the product recommendations shown to your customers on product pages and in the cart. This section covers how to create, configure, and manage offers.

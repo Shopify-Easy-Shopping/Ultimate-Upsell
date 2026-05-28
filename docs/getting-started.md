@@ -4,6 +4,10 @@ title: Getting Started
 description: "Install the app and complete the onboarding checklist"
 ---
 
+[← Back to Home](index)
+
+---
+
 # Getting Started
 
 * TOC

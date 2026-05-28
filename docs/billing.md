@@ -4,6 +4,10 @@ title: Billing Plans
 description: "Plans, revenue limits, upgrading, and downgrading"
 ---
 
+[← Back to Home](index)
+
+---
+
 # Billing Plans
 
 * TOC

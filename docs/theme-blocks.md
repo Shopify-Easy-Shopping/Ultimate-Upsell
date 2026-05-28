@@ -4,6 +4,10 @@ title: Theme Blocks
 description: "Adding the Product Offer and Cart Upsell blocks to your Shopify theme"
 ---
 
+[← Back to Home](index)
+
+---
+
 # Theme Blocks
 
 * TOC

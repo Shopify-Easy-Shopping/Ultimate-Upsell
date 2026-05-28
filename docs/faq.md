@@ -4,6 +4,10 @@ title: FAQ & Important Notes
 description: "Frequently asked questions and important notes about the app"
 ---
 
+[← Back to Home](index)
+
+---
+
 # FAQ & Important Notes
 
 * TOC

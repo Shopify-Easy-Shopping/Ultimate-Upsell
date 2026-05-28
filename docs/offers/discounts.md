@@ -4,6 +4,10 @@ title: Discounts
 description: "Configuring percentage and fixed-amount discounts on upsell offers"
 ---
 
+[← Back to Offers](index) &nbsp;|&nbsp; [← Back to Home](../index)
+
+---
+
 # Discounts
 
 * TOC
