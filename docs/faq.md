@@ -54,6 +54,8 @@ You cannot manually trigger a cycle reset.
 
 **Only upsell revenue counts.** The revenue limit tracks purchases made through the app's offer widgets only. Regular purchases made outside of any offer widget are not counted toward your plan limit.
 
+![Upsell Revenue counts](./images/revenue-count.png)
+
 ---
 
 ### Can I have multiple offers active at the same time?
