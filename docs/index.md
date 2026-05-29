@@ -14,17 +14,18 @@ Ultimate Upsell & Cross Sell lets you create targeted product offers that appear
 
 ## Quick Navigation
 
-| Section | Description |
-|---------|-------------|
-| [Getting Started](getting-started) | Install the app and complete the setup checklist |
-| [Creating Offers](offers/create) | Step-by-step guide to creating your first offer |
-| [Offer Types](offers/types) | BUNDLE, POPUP, and CART UPSELL explained |
-| [Discounts](offers/discounts) | Percentage, fixed-amount, and per-item discounts |
-| [Theme Blocks](theme-blocks) | Adding offer widgets to your storefront |
-| [Analytics](analytics) | Track impressions, clicks, conversions, and revenue |
-| [Settings](settings) | Global controls and widget appearance |
-| [Billing Plans](billing) | Free, Starter, Grow, and Ultimate plan details |
-| [FAQ & Important Notes](faq) | Common questions and critical notes |
+| Section                          | Description                                            |
+|----------------------------------|--------------------------------------------------------|
+| [Getting Started](getting-started) | Install the app and complete the setup checklist       |
+| [Creating Offers](offers/create) | Step-by-step guide to creating your first offer        |
+| [Offer Types](offers/types)      | BUNDLE, POPUP, and CART UPSELL explained               |
+| [Discounts](offers/discounts)    | Percentage, fixed-amount, and per-item discounts       |
+| [Theme Blocks](theme-blocks)     | Adding offer widgets to your storefront                |
+| [Analytics](analytics)           | Track impressions, clicks, conversions, and revenue    |
+| [Settings](settings)             | Global controls and widget appearance                  |
+| [Billing Plans](billing)         | Free, Starter, Grow, and Ultimate plan details         |
+| [FAQ & Important Notes](faq)     | Common questions and critical notes                    |
+| [Privacy Policy](privacy-policy) | Describes how the app collects, uses, and retains data |
 
 ---
 
