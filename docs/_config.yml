@@ -6,6 +6,7 @@ plugins:
 
 url: "https://shopify-easy-shopping.github.io"
 baseurl: "/Ultimate-Upsell"
+logo: "/assets/images/logo.png"
 
 markdown: kramdown
 kramdown:
