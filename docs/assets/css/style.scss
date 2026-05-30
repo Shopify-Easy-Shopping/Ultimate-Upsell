@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 2rem 6rem;
+  }
+}
+
+.project-tagline {margin-bottom: 0;}
+
 /* Hides the 'View on GitHub' or project buttons in Cayman and similar themes */
 header .btn {
   display: none !important;
