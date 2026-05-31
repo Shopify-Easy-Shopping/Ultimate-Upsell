@@ -20,7 +20,9 @@
 
 <header class="page-header" role="banner">
   <!-- Your Added Logo Tag -->
-  <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo" class="project-logo">
+  <a href="{{ site.url }}" class="logo">
+    <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo" class="project-logo">
+  </a>
 
   <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
   <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
