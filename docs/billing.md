@@ -19,16 +19,28 @@ description: "Plans, revenue limits, upgrading, and downgrading"
 
 Ultimate Upsell & Cross Sell uses **revenue-based billing** — you pay based on the upsell revenue generated for your store, not a flat monthly fee regardless of performance.
 
+### Monthly Billing
+
 | Plan | Monthly Price | Revenue Limit per Cycle | Support |
 |------|--------------|-------------------------|---------|
 | **Free** | $0 | $100 | Standard |
-| **Starter** | $8.90 / mo | $500 | Priority |
-| **Grow** | $15.90 / mo | $1,200 | Priority |
-| **Ultimate** | $28.90 / mo | Unlimited | Dedicated |
+| **Starter** | $14.90 / mo | $500 | Priority |
+| **Grow** | $24.90 / mo | $1,200 | Priority |
+| **Ultimate** | $36.90 / mo | Unlimited | Dedicated |
+
+### Annual Billing — Save 2 Months
+
+| Plan | Annual Price | Effective Monthly | Revenue Limit per Cycle | Support |
+|------|-------------|-------------------|-------------------------|---------|
+| **Starter** | $149 / yr | ~$12.42 / mo | $500 | Priority |
+| **Grow** | $249 / yr | ~$20.75 / mo | $1,200 | Priority |
+| **Ultimate** | $369 / yr | ~$30.75 / mo | Unlimited | Dedicated |
+
+> **Annual billing** locks in a lower effective monthly rate — equivalent to getting 2 months free compared to paying monthly.
 
 All plans include:
 - All offer types (Bundle, Popup, Cart Upsell)
-- AI-powered recommendations
+- Unlimited offers
 - Full analytics dashboard
 
 ---
@@ -55,9 +67,6 @@ The Dashboard shows warnings based on your current usage:
 | 80–99% of limit | **Info banner** — "Approaching your plan limit" |
 | 100%+ of limit | **Critical banner** — "Revenue limit reached" with upgrade prompt |
 
-![Aproaching Revenue Limit](./images/revenue-limit-warning.png)
-![Revenue Limit Reached](./images/revenue-limit-reached.png)
-
 ### Billing Cycle Reset
 
 Billing cycles last **30 days** from the date your cycle started (shown on the Billing page). At the end of 30 days:
@@ -65,7 +74,7 @@ Billing cycles last **30 days** from the date your cycle started (shown on the B
 - Offers automatically resume (if they were paused due to limit)
 - A new 30-day cycle begins
 
-![Current Plan and Usage](./images/current-plan-usage.png)
+The Billing page shows both the **cycle start date** and the **next reset date** so you always know when your counters clear.
 
 ---
 
@@ -81,7 +90,12 @@ The **Free plan** is available to all stores with no credit card required.
 
 ---
 
-## Starter Plan — $8.90/month
+## Starter Plan
+
+| Billing | Price |
+|---------|-------|
+| Monthly | $14.90 / mo |
+| Annual  | $149 / yr (~$12.42 / mo) |
 
 **Revenue limit:** $500 per cycle
 
@@ -89,7 +103,12 @@ The **Free plan** is available to all stores with no credit card required.
 
 ---
 
-## Grow Plan — $15.90/month
+## Grow Plan
+
+| Billing | Price |
+|---------|-------|
+| Monthly | $24.90 / mo |
+| Annual  | $249 / yr (~$20.75 / mo) |
 
 **Revenue limit:** $1,200 per cycle
 
@@ -97,7 +116,12 @@ The **Free plan** is available to all stores with no credit card required.
 
 ---
 
-## Ultimate Plan — $28.90/month
+## Ultimate Plan
+
+| Billing | Price |
+|---------|-------|
+| Monthly | $36.90 / mo |
+| Annual  | $369 / yr (~$30.75 / mo) |
 
 **Revenue limit:** Unlimited
 
@@ -105,10 +129,21 @@ The **Free plan** is available to all stores with no credit card required.
 
 ---
 
+## Choosing a Billing Interval
+
+On the **Billing & Plans** page, toggle between **Monthly** and **Annual** before selecting a plan:
+
+- **Monthly** — Pay each month; cancel anytime.
+- **Annual** — Pay once per year; save the equivalent of 2 months.
+
+You can switch between monthly and annual billing for your current plan at any time by selecting the new interval and clicking **Switch to Annual** or **Switch to Monthly** on your active plan card. Shopify handles the transition and prorates any difference.
+
+---
+
 ## Upgrading Your Plan
 
 1. Navigate to **Billing** in the app sidebar.
-2. Review your current usage and available plans.
+2. Select your preferred billing interval (Monthly or Annual).
 3. Click **Upgrade** on the desired plan card.
 4. You will be redirected to the Shopify billing confirmation page.
 5. After approving the charge, your new plan and limits take effect immediately.
@@ -133,7 +168,7 @@ To cancel a paid plan and revert to Free:
 
 1. Navigate to **Billing** in the app sidebar.
 2. Click **Cancel Subscription** under your current plan details.
-3. Your plan reverts to Free at the end of the current billing cycle.
+3. Your plan reverts to Free immediately.
 
 The Free plan's $100/cycle limit will apply from the next cycle onward.
 
@@ -143,10 +178,11 @@ The Free plan's $100/cycle limit will apply from the next cycle onward.
 
 | Feature | Free | Starter | Grow | Ultimate |
 |---------|------|---------|------|----------|
-| Monthly cost | $0 | $8.90 | $15.90 | $28.90 |
+| Monthly cost | $0 | $14.90 | $24.90 | $36.90 |
+| Annual cost | — | $149/yr | $249/yr | $369/yr |
 | Revenue limit / cycle | $100 | $500 | $1,200 | Unlimited |
 | Offer types | All | All | All | All |
-| AI recommendations | ✓ | ✓ | ✓ | ✓ |
+| Unlimited offers | ✓ | ✓ | ✓ | ✓ |
 | Analytics | Full | Full | Full | Full |
 | Support | Standard | Priority | Priority | Dedicated |
 
