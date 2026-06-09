@@ -22,6 +22,7 @@ description: "Install the app and complete the onboarding checklist"
    - `read_products`, `write_products` — to fetch and display product data
    - `read_orders`, `read_customers` — to track conversions
    - `write_discounts`, `read_discounts` — to apply discount codes
+   - `read_all_orders` - to fetch best-selling products
    - `write_metaobjects`, `write_metaobject_definitions` — to store offer metadata
 3. After granting permissions, you are taken to the app **Dashboard**.
 
