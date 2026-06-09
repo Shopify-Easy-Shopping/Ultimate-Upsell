@@ -8,7 +8,7 @@ description: "Complete documentation"
 
 **Boost your Shopify store revenue with smart upsell and cross-sell offers.**
 
-Ultimate Upsell & Cross Sell lets you create targeted product offers that appear on your product pages and cart — powered by manual selection or AI-driven recommendations.
+[Ultimate Upsell & Cross Sell](https://apps.shopify.com/ultimate-upsell-cross-sell){:target="_blank"} lets you create targeted product offers that appear on your product pages and cart — powered by manual selection or AI-driven recommendations.
 
 ---
 

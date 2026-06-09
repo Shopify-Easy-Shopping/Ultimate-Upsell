@@ -17,7 +17,7 @@ description: "Install the app and complete the onboarding checklist"
 
 ## Installation
 
-1. Install **Ultimate Upsell & Cross Sell** from the [Shopify App Store](https://apps.shopify.com/ultimate-upsell-cross-sell).
+1. Install **Ultimate Upsell & Cross Sell** from the [Shopify App Store](https://apps.shopify.com/ultimate-upsell-cross-sell){:target="_blank"}.
 2. You will be redirected to the Shopify admin to grant permissions. The app requires:
    - `read_products`, `write_products` — to fetch and display product data
    - `read_orders`, `read_customers` — to track conversions
