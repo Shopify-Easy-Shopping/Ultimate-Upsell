@@ -125,6 +125,11 @@ All variants of the same product are **merged into a single card** with a varian
 
 > **Note:** The Grouped mode respects variant availability. Unavailable variants are shown in the dropdown with "(Unavailable)" appended and cannot be added to the cart.
 
+
+| Separated Items mode                                            | Grouped by Product mode |
+|-----------------------------------------------------------------|-------------------------|
+| ![Separated Items mode](./images/variant-display-separated.png) | ![Grouped by Product mode](./images/varitant-display-grouped.png) |
+
 ---
 
 ## Multiple Block Instances
