@@ -77,6 +77,8 @@ Once a block is added, you can configure it directly in the Theme Editor. Click 
 | **Display Type** | Bundle / Popup | Choose whether to show Bundle or Popup offers from this block instance |
 | **Item List Layout** | Grid / Slider | How recommended products are arranged (Bundle only) |
 | **Check All Items by Default** | Yes / No | Whether all bundle items are pre-checked (Bundle only) |
+| **Show Plus Icon** | Yes / No | Show the "+" separator between bundle item cards (Bundle only) |
+| **Variant Display** | Separated / Grouped by product | How product variants are presented — see [Variant Display](#variant-display) |
 | **Block Max Width** | 300–1400 px | Maximum width of the offer widget |
 | **Button Color** | Color picker | Background color of the Add to Cart buttons |
 
@@ -85,8 +87,43 @@ Once a block is added, you can configure it directly in the Theme Editor. Click 
 | Setting | Options | Description |
 |---------|---------|-------------|
 | **Item List Layout** | Grid / Slider | How recommended products are arranged |
+| **Variant Display** | Separated / Grouped by product | How product variants are presented — see [Variant Display](#variant-display) |
 | **Block Max Width** | 300–1400 px | Maximum width of the offer widget |
 | **Button Color** | Color picker | Background color of the Add to Cart buttons |
+
+---
+
+## Variant Display
+
+The **Variant Display** setting controls how product variants appear inside offer widgets. It is available on both the **Product Offer** and **Cart Upsell** blocks.
+
+### Separated items (default)
+
+Each variant is shown as its **own individual card**.
+
+- A product with 3 variants (e.g., Small, Medium, Large) appears as **3 separate cards**, one for each variant.
+- The customer clicks the card they want and adds it directly — no dropdown required.
+- Best suited for offers where you have carefully curated which specific variants to recommend.
+
+### Grouped by product
+
+All variants of the same product are **merged into a single card** with a variant dropdown selector.
+
+- A product with 3 variants appears as **1 card** with a `<select>` dropdown listing all available variants.
+- When the customer changes the dropdown, the displayed price updates automatically to reflect the selected variant's price (including any active discount).
+- The first available variant is pre-selected by default.
+- Best suited for offers where customers should be able to choose their preferred size, color, or style.
+
+### When to use each mode
+
+| Scenario | Recommended Mode |
+|----------|-----------------|
+| Recommending specific variants (e.g., only "Black L") | **Separated** |
+| Recommending a product and letting customers pick their size/color | **Grouped by product** |
+| Offer contains many variants and card grid looks cluttered | **Grouped by product** |
+| Offer contains carefully selected single variants | **Separated** |
+
+> **Note:** The Grouped mode respects variant availability. Unavailable variants are shown in the dropdown with "(Unavailable)" appended and cannot be added to the cart.
 
 ---
 
