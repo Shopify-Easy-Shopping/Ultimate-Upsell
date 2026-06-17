@@ -19,12 +19,13 @@ description: "Adding the Product Offer and Cart Upsell blocks to your Shopify th
 
 The app uses **Shopify Theme App Blocks** to render offer widgets on your storefront. Theme blocks must be manually added to your theme via the Theme Editor before any offers will appear to customers.
 
-There are two blocks:
+There are three blocks:
 
-| Block | Offer Types Supported | Page Template |
-|-------|-----------------------|---------------|
-| **Product Offer** | Bundle, Popup | Product page (`product.json`) |
-| **Cart Upsell** | Cart Upsell | Cart page (`cart.json`) |
+| Block | Purpose | Supported Templates |
+|-------|---------|---------------------|
+| **Product Offer** | Renders Bundle and Popup offers | Product page (`product.json`) |
+| **Cart Upsell** | Renders Cart Upsell offers | Cart page (`cart.json`) |
+| **Recently Viewed Products** | Shows products the customer recently browsed | Product, Collection, Homepage, Page |
 
 > **Important:** Even if your offers are set to **Active**, they will not appear on your storefront until the corresponding theme block is installed.
 
@@ -66,6 +67,35 @@ The Cart Upsell block displays Cart Upsell offers on your cart page.
 
 ---
 
+## Adding the Recently Viewed Products Block
+
+The Recently Viewed Products block shows a personalized list of products the customer has browsed on your store. Products are saved in the browser's local storage — no login required — and the block re-renders automatically as the history grows.
+
+This block operates independently from your upsell offers and does not require any offer to be configured or active.
+
+### Supported templates
+
+Unlike the other two blocks, **Recently Viewed Products** can be placed on multiple template types:
+
+- **Product** pages — show other products viewed during the same session
+- **Collection** pages — remind shoppers of products they explored before
+- **Homepage** (`index`) — surface recently browsed products for returning visitors
+- **Custom pages** (`page`) — suitable for dedicated "Your history" or wishlist-style pages
+
+### Steps
+
+1. From your Shopify admin, go to **Online Store → Themes**.
+2. Next to your active theme, click **Customize**.
+3. In the top center dropdown, select the template you want to add the block to (e.g., **Products → Default product**).
+4. In the left sidebar, click **Add section** or **Add block**.
+5. Search for **"Recently Viewed"** or scroll to find **Recently Viewed Products** under the app blocks section.
+6. Click the block to add it and position it on the page.
+7. Click **Save**.
+
+> **Tip:** Adding this block to the Homepage is especially effective for returning visitors — customers who came back to buy will immediately see the products they browsed before.
+
+---
+
 ## Block Settings
 
 Once a block is added, you can configure it directly in the Theme Editor. Click the block in the sidebar or on the canvas to see its settings.
@@ -90,6 +120,17 @@ Once a block is added, you can configure it directly in the Theme Editor. Click 
 | **Variant Display** | Separated / Grouped by product | How product variants are presented — see [Variant Display](#variant-display) |
 | **Block Max Width** | 300–1400 px | Maximum width of the offer widget |
 | **Button Color** | Color picker | Background color of the Add to Cart buttons |
+
+### Recently Viewed Products Block Settings
+
+| Setting | Options / Range | Default | Description |
+|---------|----------------|---------|-------------|
+| **Heading** | Text | "Recently Viewed" | Section heading displayed above the product cards |
+| **Button text** | Text | "Add to cart" | Label for the Add to Cart button on each card |
+| **Maximum products to show** | 2–10 | 4 | Cap on how many recently viewed products are displayed; older entries are dropped once the limit is reached |
+| **Layout** | Grid / Slider | Grid | Grid shows all cards in a responsive grid; Slider shows them in a horizontally scrollable carousel |
+| **Block max width** | 300–1400 px | 1200 px | Maximum width of the block container |
+| **Button color** | Color picker | #008060 | Background color of the Add to Cart buttons |
 
 ---
 
@@ -129,6 +170,18 @@ All variants of the same product are **merged into a single card** with a varian
 | Separated Items mode                                            | Grouped by Product mode |
 |-----------------------------------------------------------------|-------------------------|
 | ![Separated Items mode](./images/variant-display-separated.png) | ![Grouped by Product mode](./images/varitant-display-grouped.png) |
+
+---
+
+## Recently Viewed Products & Analytics
+
+The Recently Viewed Products block tracks its own impressions, clicks, and conversions **separately** from your upsell offers. You can view its performance in the **Recently Viewed Block Analytics** section at the bottom of the [Analytics](analytics) page.
+
+- **Impression** — recorded each time the block renders with at least one product card
+- **Click** — recorded when a customer clicks "Add to cart" on a recently viewed product
+- **Conversion** — recorded via the `orders/paid` webhook when a purchased line item contains the `_upsell_block: RECENTLY_VIEWED` property
+
+> Revenue from Recently Viewed conversions **does count** toward your billing cycle revenue limit, the same as offer conversions.
 
 ---
 

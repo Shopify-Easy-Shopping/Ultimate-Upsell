@@ -97,14 +97,47 @@ The table at the bottom ranks all your offers by revenue (highest first) and sho
 
 ---
 
+## Recently Viewed Block Analytics
+
+The Analytics page includes a **separate section** specifically for the **Recently Viewed Products** block. This section only appears once there is at least one impression or conversion attributed to that block.
+
+> This section is independent from the Upsell Offers Analytics above — each has its own all-time totals and recent-period metrics.
+
+### Metrics shown
+
+The Recently Viewed section displays the same four core metrics as the main analytics, but scoped exclusively to interactions with the Recently Viewed Products block:
+
+| Metric | Description |
+|--------|-------------|
+| **Revenue** | Revenue from orders that included a recently viewed product (all-time and last N days) |
+| **Conversions** | Times a recently viewed product was purchased, plus conversion rate |
+| **Impressions** | Times the Recently Viewed block was rendered with at least one product card |
+| **Clicks** | Times a customer clicked "Add to cart" on a recently viewed product |
+
+Both an **All-Time** and a **Last N Days** grid are shown, with the date range controlled by the same 7 / 30 / 90 day filter that applies to the main analytics section.
+
+### How Recently Viewed analytics are separated
+
+Events from the Recently Viewed block are stored with `blockType: "RECENTLY_VIEWED"` in the database, which keeps them completely separate from offer events (`blockType: null`). This means:
+
+- Totals in the **Upsell Offers Analytics** section never include Recently Viewed interactions
+- Totals in the **Recently Viewed Block Analytics** section are purely from that block
+- Billing cycle revenue includes both (all storefront revenue attributed to the app counts toward your plan limit)
+
+---
+
 ## How Conversions Are Tracked
 
-Conversions are tracked in two ways:
+### Upsell offers
 
-1. **Frontend tracking** — When a customer clicks the CTA and adds a product to cart, the widget sends a tracking event.
+1. **Frontend tracking** — When a customer clicks the CTA and adds a product to cart, the widget sends a tracking event with the `_upsell_offer_id` line item property.
 2. **Order webhook** — When an order is paid, the app checks each line item for a `_upsell_offer_id` property. If present, a conversion is recorded server-side.
 
-The webhook-based tracking is the more reliable method and prevents double-counting.
+### Recently Viewed Products block
+
+Conversions for the Recently Viewed block use the same webhook mechanism, but the line item property is `_upsell_block` with value `RECENTLY_VIEWED` instead of an offer ID. This allows the app to attribute the order revenue to the block independently.
+
+The webhook-based tracking is the more reliable method and prevents double-counting across all block types.
 
 ---
 
