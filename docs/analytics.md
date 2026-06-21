@@ -141,6 +141,54 @@ The webhook-based tracking is the more reliable method and prevents double-count
 
 ---
 
+## Checking Revenue from Individual Orders
+
+You can verify exactly which orders were influenced by an upsell offer or the Recently Viewed block by inspecting the line item properties directly in Shopify.
+
+### Steps
+
+1. In your Shopify admin, go to **Orders**.
+2. Click on any order you want to inspect.
+3. In the order detail page, find the list of purchased line items.
+4. Click **Show details** (or expand the line item if it is collapsed) to reveal the **line item properties** attached to that item.
+
+### What to look for
+
+The app writes one of two properties to each line item that was added through a widget:
+
+| Property | Value | Meaning |
+|----------|-------|---------|
+| `_upsell_offer_id` | An offer ID (e.g. `cm4x...`) | This item was added via an **Upsell Offer** widget. The value is the internal ID of the offer that triggered the purchase. |
+| `_upsell_block` | `RECENTLY_VIEWED` | This item was added via the **Recently Viewed Products** block. |
+
+Line items purchased through normal browsing (not via a widget) will have **neither property** — they do not appear in the app's analytics.
+
+> **Note:** Properties whose names start with `_` (underscore) are hidden from customers on the storefront and in order confirmation emails. They are only visible to you in the Shopify admin.
+
+### Example
+
+An order contains two items:
+
+| Product | Line Item Properties |
+|---------|---------------------|
+| Blue T-Shirt (L) | `_upsell_offer_id: cm4xk9p2g0000...` |
+| Black Hoodie (M) | `_upsell_block: RECENTLY_VIEWED` |
+| White Sneakers (42) | *(none)* |
+
+In this example:
+- The **Blue T-Shirt** was added via an upsell offer — you can look up that offer ID in the [Offers list](../offers) to confirm which offer converted.
+- The **Black Hoodie** was added via the Recently Viewed Products block.
+- The **White Sneakers** were added through regular browsing and are not attributed to the app.
+
+### Cross-referencing with Analytics
+
+The offer ID in `_upsell_offer_id` corresponds to the offer shown in the **Offer Performance** table on the Analytics page. You can use it to confirm that the Analytics revenue figures match the orders you see in Shopify.
+
+
+![Upsell Revenue counts](./images/revenue-count.png)
+
+---
+
 ## Analytics Tips
 
 - **Best performing offer types** are typically Cart Upsell (high intent, near checkout) followed by Bundle (high visibility on product pages).
