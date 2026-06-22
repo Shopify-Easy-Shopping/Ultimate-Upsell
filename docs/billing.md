@@ -23,18 +23,18 @@ Ultimate Upsell & Cross Sell uses **revenue-based billing** — you pay based on
 
 | Plan | Monthly Price | Revenue Limit per Cycle | Support |
 |------|--------------|-------------------------|---------|
-| **Free** | $0 | $100 | Standard |
-| **Starter** | $14.90 / mo | $500 | Priority |
-| **Grow** | $24.90 / mo | $1,200 | Priority |
-| **Ultimate** | $36.90 / mo | Unlimited | Dedicated |
+| **Free** | $0 | $200                    | Standard |
+| **Starter** | $8.90 / mo | $1000                   | Priority |
+| **Grow** | $16.90 / mo | $2000                   | Priority |
+| **Ultimate** | $32.90 / mo | Unlimited               | Dedicated |
 
 ### Annual Billing — Save 2 Months
 
 | Plan | Annual Price | Effective Monthly | Revenue Limit per Cycle | Support |
 |------|-------------|-------------------|-------------------------|---------|
-| **Starter** | $149 / yr | ~$12.42 / mo | $500 | Priority |
-| **Grow** | $249 / yr | ~$20.75 / mo | $1,200 | Priority |
-| **Ultimate** | $369 / yr | ~$30.75 / mo | Unlimited | Dedicated |
+| **Starter** | $89 / yr | ~$7.42 / mo | $1000                   | Priority |
+| **Grow** | $169 / yr | ~$14.08 / mo | $2000                   | Priority |
+| **Ultimate** | $329 / yr | ~$27.42 / mo | Unlimited               | Dedicated |
 
 > **Annual billing** locks in a lower effective monthly rate — equivalent to getting 2 months free compared to paying monthly.
 
@@ -94,10 +94,10 @@ The **Free plan** is available to all stores with no credit card required.
 
 | Billing | Price |
 |---------|-------|
-| Monthly | $14.90 / mo |
-| Annual  | $149 / yr (~$12.42 / mo) |
+| Monthly | $8.90 / mo |
+| Annual  | $89 / yr (~$7.42 / mo) |
 
-**Revenue limit:** $500 per cycle
+**Revenue limit:** $1000 per cycle
 
 **Best for:** Small stores with steady upsell revenue looking for a low monthly cost.
 
@@ -107,10 +107,10 @@ The **Free plan** is available to all stores with no credit card required.
 
 | Billing | Price |
 |---------|-------|
-| Monthly | $24.90 / mo |
-| Annual  | $249 / yr (~$20.75 / mo) |
+| Monthly | $16.90 / mo |
+| Annual  | $169 / yr (~$14.08 / mo) |
 
-**Revenue limit:** $1,200 per cycle
+**Revenue limit:** $2000 per cycle
 
 **Best for:** Growing stores with increasing AOV and conversion volume.
 
@@ -120,8 +120,8 @@ The **Free plan** is available to all stores with no credit card required.
 
 | Billing | Price |
 |---------|-------|
-| Monthly | $36.90 / mo |
-| Annual  | $369 / yr (~$30.75 / mo) |
+| Monthly | $32.90 / mo |
+| Annual  | $329 / yr (~$27.42 / mo) |
 
 **Revenue limit:** Unlimited
 
@@ -176,14 +176,14 @@ The Free plan's $100/cycle limit will apply from the next cycle onward.
 
 ## Plan Comparison Table
 
-| Feature | Free | Starter | Grow | Ultimate |
-|---------|------|---------|------|----------|
-| Monthly cost | $0 | $14.90 | $24.90 | $36.90 |
-| Annual cost | — | $149/yr | $249/yr | $369/yr |
-| Revenue limit / cycle | $100 | $500 | $1,200 | Unlimited |
-| Offer types | All | All | All | All |
-| Unlimited offers | ✓ | ✓ | ✓ | ✓ |
-| Analytics | Full | Full | Full | Full |
+| Feature | Free     | Starter  | Grow     | Ultimate |
+|---------|----------|----------|----------|----------|
+| Monthly cost | $0       | $8.90    | $16.90   | $32.90 |
+| Annual cost | —        | $89/yr   | $169/yr  | $329/yr |
+| Revenue limit / cycle | $200     | $1000    | $2000    | Unlimited |
+| Offer types | All      | All      | All      | All |
+| Unlimited offers | ✓        | ✓        | ✓        | ✓ |
+| Analytics | Full     | Full     | Full     | Full |
 | Support | Standard | Priority | Priority | Dedicated |
 
 ---
